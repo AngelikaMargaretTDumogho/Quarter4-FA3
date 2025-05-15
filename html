@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GFA 3 - Quarter 4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #output, #contacts {
+      margin-top: 20px;
+      white-space: pre-wrap;
+    }
+    input, button {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Part 1: Number Shape Generator</h2>
+  <button onclick="promptNumber()">Start</button>
+  <div id="output"></div>
+
+  <hr>
+
+  <h2>Part 2: Contact List</h2>
+  <input type="text" id="nameInput" placeholder="Enter name" />
+  <button onclick="addName()">Add</button>
+  <button onclick="removeName()">Remove</button>
+  <div id="contacts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
